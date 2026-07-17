@@ -125,8 +125,14 @@
     setText("founderBio1", d.founderBio1);
     setText("founderBio2", d.founderBio2);
 
-    var avatar = document.getElementById("founderAvatar");
-    avatar.textContent = d.founderInitials;
+    var avatarWrap = document.getElementById("founderAvatar");
+    avatarWrap.innerHTML = "";
+    var founderImg = el("img", { src: "assets/founder.png", alt: d.founderName, class: "founder-avatar-img" });
+    founderImg.addEventListener("error", function () {
+      var fallback = el("div", { class: "founder-avatar-fallback" }, [document.createTextNode(d.founderInitials)]);
+      founderImg.replaceWith(fallback);
+    }, { once: true });
+    avatarWrap.appendChild(founderImg);
 
     var creds = document.getElementById("founderCreds");
     creds.innerHTML = "";
