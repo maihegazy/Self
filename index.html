@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Self — Psychology Counseling Center</title>
+<meta name="description" content="Self is a psychology counseling center in El-Sheikh Zayed, Egypt. Individual, couples, and family therapy, psychiatry, eating-disorder treatment, and nutrition counseling.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" data-reveal-skip>
+  <div class="nav-inner">
+    <a href="#hero" class="brand">
+      <img src="assets/logo.png" alt="Self Counseling Center" class="brand-logo">
+      <span class="brand-name">Self</span>
+    </a>
+    <div class="nav-links" id="navLinks"></div>
+    <div class="nav-actions">
+      <button type="button" id="langToggle" class="lang-btn"></button>
+      <a href="#contact" class="btn btn-cta" id="navCta"></a>
+    </div>
+    <button type="button" id="navMenuToggle" class="nav-menu-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header id="hero" class="hero">
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+  <div class="blob blob-c"></div>
+  <div class="hero-inner" data-reveal>
+    <img src="assets/logo.png" alt="Self — Counseling center" class="hero-logo">
+    <h1 id="heroTitle"></h1>
+    <p id="heroSub"></p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-cta btn-lg" id="heroCta"></a>
+      <a href="#services" class="btn btn-outline btn-lg" id="heroSecondary"></a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section about">
+  <div class="section-inner about-grid">
+    <div data-reveal>
+      <p class="kicker" id="aboutKicker"></p>
+      <h2 id="aboutTitle"></h2>
+      <p class="body-text" id="aboutP1"></p>
+      <p class="body-text" id="aboutP2"></p>
+    </div>
+    <div class="about-panel" data-reveal>
+      <div class="about-panel-blob"></div>
+      <div class="about-stats" id="aboutStats"></div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section services-section">
+  <div class="section-inner">
+    <div class="section-head" data-reveal>
+      <p class="kicker" id="servicesKicker"></p>
+      <h2 id="servicesTitle"></h2>
+      <p class="section-sub" id="servicesSub"></p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<section id="team" class="section team-section">
+  <div class="blob blob-d"></div>
+  <div class="section-inner">
+    <div class="section-head" data-reveal>
+      <p class="kicker kicker-amber" id="teamKicker"></p>
+      <h2 id="teamTitle"></h2>
+      <p class="section-sub" id="teamSub"></p>
+    </div>
+
+    <div class="founder-card" data-reveal>
+      <div class="founder-photo-wrap">
+        <div class="founder-photo-blob"></div>
+        <div class="founder-avatar" id="founderAvatar"></div>
+      </div>
+      <div>
+        <p class="kicker kicker-amber" id="founderKicker"></p>
+        <h3 class="founder-name" id="founderName"></h3>
+        <p class="founder-role" id="founderRole"></p>
+        <div class="founder-creds" id="founderCreds"></div>
+        <p class="body-text" id="founderBio1"></p>
+        <p class="body-text" id="founderBio2"></p>
+      </div>
+    </div>
+
+    <div class="team-grid" id="teamGrid"></div>
+
+    <div class="team-more" data-reveal>
+      <a href="team.html" class="btn btn-outline" id="teamMoreLink"></a>
+    </div>
+  </div>
+</section>
+
+<section id="values" class="section values-section">
+  <div class="section-inner">
+    <div class="section-head" data-reveal>
+      <p class="kicker" id="valuesKicker"></p>
+      <h2 id="valuesTitle"></h2>
+    </div>
+    <div class="values-grid" id="valuesGrid"></div>
+  </div>
+</section>
+
+<section id="testimonials" class="section">
+  <div class="section-inner">
+    <div class="section-head" data-reveal>
+      <p class="kicker kicker-amber" id="testiKicker"></p>
+      <h2 id="testiTitle"></h2>
+    </div>
+    <div class="testi-grid" id="testiGrid"></div>
+    <p class="testi-note" data-reveal id="testiPlaceholderNote"></p>
+  </div>
+</section>
+
+<section id="faq" class="section faq-section">
+  <div class="section-inner section-inner-narrow">
+    <div class="section-head" data-reveal>
+      <p class="kicker" id="faqKicker"></p>
+      <h2 id="faqTitle"></h2>
+    </div>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="blob blob-e"></div>
+  <div class="section-inner section-inner-medium">
+    <div class="section-head" data-reveal>
+      <p class="kicker kicker-green" id="contactKicker"></p>
+      <h2 id="contactTitle"></h2>
+      <p class="section-sub" id="contactSub"></p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-form-card" data-reveal>
+        <div id="successPanel" class="success-panel" hidden>
+          <div class="success-check">✓</div>
+          <h3 id="successTitle"></h3>
+          <p id="successSub"></p>
+          <button type="button" class="btn btn-outline" id="successAgain"></button>
+        </div>
+        <form id="bookingForm" novalidate>
+          <div class="field">
+            <label for="f-name" id="fNameLabel"></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+            <span class="field-error" id="errName"></span>
+          </div>
+          <div class="field">
+            <label for="f-email" id="fEmailLabel"></label>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+            <span class="field-error" id="errEmail"></span>
+          </div>
+          <div class="field">
+            <label for="f-service" id="fServiceLabel"></label>
+            <select id="f-service" name="service"></select>
+            <span class="field-error" id="errService"></span>
+          </div>
+          <div class="field">
+            <label for="f-msg" id="fMessageLabel"></label>
+            <textarea id="f-msg" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-cta btn-lg" id="fSubmit"></button>
+          <p class="form-privacy" id="fPrivacy"></p>
+        </form>
+      </div>
+      <div class="contact-info" data-reveal>
+        <a href="tel:+201040932900" class="contact-card">
+          <div class="contact-icon contact-icon-blue"></div>
+          <div><div class="contact-label" id="cPhoneLabel"></div><div class="contact-value" dir="ltr">(+20) 010 4093 2900</div></div>
+        </a>
+        <a href="mailto:self.counselingcenter@gmail.com" class="contact-card">
+          <div class="contact-icon contact-icon-amber"></div>
+          <div><div class="contact-label" id="cEmailLabel"></div><div class="contact-value contact-value-break">self.counselingcenter@gmail.com</div></div>
+        </a>
+        <div class="contact-card contact-card-static">
+          <div class="contact-icon contact-icon-purple"></div>
+          <div><div class="contact-label" id="cLocationLabel"></div><div class="contact-value" id="cAddress"></div></div>
+        </div>
+        <div class="contact-card contact-card-static">
+          <div class="contact-icon contact-icon-blue2"></div>
+          <div><div class="contact-label" id="cHoursLabel"></div><div class="contact-value" id="cHoursVal"></div></div>
+        </div>
+        <a href="https://www.instagram.com/self_center_/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon contact-icon-green"></div>
+          <div><div class="contact-label">Instagram</div><div class="contact-value" dir="ltr">@self_center_</div></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a href="#hero" class="brand">
+      <img src="assets/logo.png" alt="Self" class="footer-logo">
+      <span class="brand-name">Self <span class="footer-wordmark" id="footerWordmark"></span></span>
+    </a>
+    <div class="footer-links" id="footerLinks"></div>
+    <p class="footer-copy" id="copyright"></p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
