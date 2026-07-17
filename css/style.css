@@ -367,8 +367,11 @@ img { max-width: 100%; display: block; }
 .team-page-footer p { margin: 0; font-size: 13px; color: var(--ink-faint); }
 
 /* ---------- Reveal on scroll ---------- */
-[data-reveal] { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
-[data-reveal].in-view { opacity: 1; transform: translateY(0); }
+/* Content is visible by default. The reveal script opts each element in by
+   adding .reveal-init (which hides it), then .in-view (which fades it in).
+   If the script fails to run, nothing is hidden, so the page is never blank. */
+[data-reveal].reveal-init { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
+[data-reveal].reveal-init.in-view { opacity: 1; transform: translateY(0); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {

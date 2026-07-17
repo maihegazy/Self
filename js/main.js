@@ -314,7 +314,7 @@
         }
       });
     }, { threshold: 0.12 });
-    els.forEach(function (e) { io.observe(e); });
+    els.forEach(function (e) { e.classList.add("reveal-init"); io.observe(e); });
   }
 
   function validateEmail(value) {

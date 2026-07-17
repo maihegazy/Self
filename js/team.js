@@ -16,6 +16,6 @@
         }
       });
     }, { threshold: 0.08 });
-    els.forEach(function (e) { io.observe(e); });
+    els.forEach(function (e) { e.classList.add("reveal-init"); io.observe(e); });
   });
 })();
