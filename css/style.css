@@ -199,7 +199,7 @@ img { max-width: 100%; display: block; }
   height: 100%;
   object-fit: cover;
   object-position: top center;
-  background: #F1F0FA;
+  background: none;
 }
 .founder-avatar-fallback {
   width: 100%;
