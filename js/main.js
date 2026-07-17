@@ -103,6 +103,15 @@
     }, [document.createTextNode(text)]);
   }
 
+  function teamPhoto(m, name, initials) {
+    if (!m.img) return initialsAvatar(initials, m.colors);
+    var img = el("img", { src: m.img, alt: name, class: "team-avatar-img" });
+    img.addEventListener("error", function () {
+      img.replaceWith(initialsAvatar(initials, m.colors));
+    }, { once: true });
+    return img;
+  }
+
   function renderTeam() {
     var d = t();
     setText("teamKicker", d.teamKicker);
@@ -132,7 +141,7 @@
       var title = m[state.lang][1];
       var initials = m.initials[state.lang];
       var card = el("a", { href: "team.html", class: "team-card", "data-reveal": "" }, [
-        initialsAvatar(initials, m.colors),
+        teamPhoto(m, name, initials),
         el("div", { class: "team-card-body" }, [
           el("div", { class: "team-card-name", text: name }),
           el("div", { class: "team-card-title", text: title })
