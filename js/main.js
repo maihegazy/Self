@@ -103,6 +103,15 @@
     }, [document.createTextNode(text)]);
   }
 
+  function teamPhoto(m, name, initials) {
+    if (!m.img) return initialsAvatar(initials, m.colors);
+    var img = el("img", { src: m.img, alt: name, class: "team-avatar-img" });
+    img.addEventListener("error", function () {
+      img.replaceWith(initialsAvatar(initials, m.colors));
+    }, { once: true });
+    return img;
+  }
+
   function renderTeam() {
     var d = t();
     setText("teamKicker", d.teamKicker);
@@ -116,8 +125,14 @@
     setText("founderBio1", d.founderBio1);
     setText("founderBio2", d.founderBio2);
 
-    var avatar = document.getElementById("founderAvatar");
-    avatar.textContent = d.founderInitials;
+    var avatarWrap = document.getElementById("founderAvatar");
+    avatarWrap.innerHTML = "";
+    var founderImg = el("img", { src: "assets/founder.png", alt: d.founderName, class: "founder-avatar-img" });
+    founderImg.addEventListener("error", function () {
+      var fallback = el("div", { class: "founder-avatar-fallback" }, [document.createTextNode(d.founderInitials)]);
+      founderImg.replaceWith(fallback);
+    }, { once: true });
+    avatarWrap.appendChild(founderImg);
 
     var creds = document.getElementById("founderCreds");
     creds.innerHTML = "";
@@ -132,7 +147,7 @@
       var title = m[state.lang][1];
       var initials = m.initials[state.lang];
       var card = el("a", { href: "team.html", class: "team-card", "data-reveal": "" }, [
-        initialsAvatar(initials, m.colors),
+        teamPhoto(m, name, initials),
         el("div", { class: "team-card-body" }, [
           el("div", { class: "team-card-name", text: name }),
           el("div", { class: "team-card-title", text: title })
