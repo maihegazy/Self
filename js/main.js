@@ -2,6 +2,8 @@
   "use strict";
 
   var I18N = window.SELF_I18N;
+  // WhatsApp destination in international format, digits only (no + or spaces).
+  var WHATSAPP_NUMBER = "201040932900";
   var state = {
     lang: (localStorage.getItem("self-lang") === "ar") ? "ar" : "en",
     form: { name: "", email: "", service: "", message: "" },
@@ -321,6 +323,19 @@
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
   }
 
+  function buildWhatsappUrl() {
+    var d = t();
+    var lines = [
+      d.waIntro,
+      "",
+      d.fName + ": " + state.form.name.trim(),
+      d.fEmail + ": " + state.form.email.trim(),
+      d.fService + ": " + state.form.service,
+      d.fMessage + ": " + (state.form.message.trim() || d.waNoMessage)
+    ];
+    return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(lines.join("\n"));
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     renderAll();
 
@@ -367,6 +382,7 @@
         applyFormErrors();
         return;
       }
+      window.open(buildWhatsappUrl(), "_blank", "noopener");
       state.submitted = true;
       toggleSuccessPanel();
     });
