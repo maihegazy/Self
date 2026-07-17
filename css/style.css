@@ -368,6 +368,53 @@ img { max-width: 100%; display: block; }
 .footer-links a:hover { color: var(--purple); }
 .footer-copy { margin: 0; font-size: 13px; color: var(--ink-faint); }
 
+/* ---------- Team page ---------- */
+.back-link { padding: 8px 14px; border-radius: 999px; font-size: 15px; font-weight: 700; color: #4A5160; transition: background .2s, color .2s; }
+.back-link:hover { background: rgba(87,92,168,.08); color: var(--ink); }
+
+.team-page-hero { position: relative; padding: 70px 24px 50px; text-align: center; overflow: hidden; }
+.team-hero-blob-a { inset-inline-start: -120px; top: -80px; width: 400px; height: 360px; background: rgba(87,92,168,.10); border-radius: 58% 42% 55% 45% / 52% 58% 42% 48%; }
+.team-hero-blob-b { inset-inline-end: -140px; top: 20px; width: 420px; height: 380px; background: rgba(0,181,232,.09); border-radius: 45% 55% 48% 52% / 55% 45% 55% 45%; }
+.team-page-hero-inner { position: relative; max-width: 680px; margin: 0 auto; }
+.team-page-hero h1 { margin: 0 0 16px; font-size: clamp(32px, 4.6vw, 50px); font-weight: 900; letter-spacing: -.02em; color: var(--ink-strong); }
+
+.member-list { max-width: 980px; margin: 0 auto; padding: 20px 24px 90px; display: flex; flex-direction: column; gap: 28px; }
+.member-card {
+  background: #fff;
+  border-radius: 30px;
+  padding: clamp(22px, 3.5vw, 36px);
+  box-shadow: 0 3px 18px rgba(43,48,56,.06);
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.member-photo-wrap { flex: none; position: relative; }
+.member-blob { position: absolute; inset: -12px; border-radius: 56% 44% 52% 48% / 50% 56% 44% 50%; background: rgba(0,181,232,.14); }
+.member-card:nth-of-type(4n+2) .member-blob { background: rgba(248,159,30,.14); }
+.member-card:nth-of-type(4n+3) .member-blob { background: rgba(87,92,168,.13); }
+.member-card:nth-of-type(4n+4) .member-blob { background: rgba(55,179,74,.13); }
+.member-photo {
+  position: relative;
+  width: 210px;
+  aspect-ratio: 700 / 860;
+  height: auto;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 22px;
+}
+.member-body { flex: 1; min-width: 280px; }
+.member-body h2 { margin: 0 0 4px; font-size: 26px; font-weight: 800; letter-spacing: -.01em; color: var(--ink-strong); }
+.member-title { margin: 0 0 14px; font-size: 16px; font-weight: 700; color: var(--purple); }
+.member-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+.member-tags span { font-size: 12.5px; font-weight: 700; color: #39404D; background: rgba(87,92,168,.09); padding: 5px 12px; border-radius: 999px; }
+.member-body p { margin: 0 0 12px; font-size: 15.5px; line-height: 1.75; color: var(--ink-soft); text-wrap: pretty; }
+.member-body p:last-child { margin-bottom: 0; }
+.member-list-cta { text-align: center; margin-top: 24px; }
+
+.team-page-footer { border-top: 1px solid rgba(43,48,56,.07); padding: 36px 24px; text-align: center; }
+.team-page-footer p { margin: 0; font-size: 13px; color: var(--ink-faint); }
+
 /* ---------- Reveal on scroll ---------- */
 [data-reveal] { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
 [data-reveal].in-view { opacity: 1; transform: translateY(0); }
@@ -389,6 +436,13 @@ img { max-width: 100%; display: block; }
 
   .founder-card { gap: 28px; }
   .founder-photo-wrap { padding: 16px 0 8px; }
+
+  .member-card { gap: 24px; justify-content: center; }
+  .member-photo-wrap { margin: 6px auto 0; }
+  .member-photo { width: min(230px, 62vw); }
+  .member-body h2 { text-align: center; }
+  .member-title { text-align: center; }
+  .member-tags { justify-content: center; }
 
   .section { padding: 54px 18px; }
   .team-section { padding: 64px 18px; }
