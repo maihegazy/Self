@@ -4,6 +4,7 @@
   "use strict";
 
   var TEAM_META = [
+    { img: "assets/team/1.png", initials: { en: "MZ", ar: "مز" }, en: ["Mahmoud Zaki", "Counseling Psychologist · Founder of Self Center"], ar: ["محمود زكي", "أخصائي نفسي إرشادي · مؤسس مركز سيلف"], colors: ["#00B5E8", "#F89F1E"] },
     { img: "assets/team/2.png", initials: { en: "MA", ar: "مح" }, en: ["Dr. Mohamed Al-Hallag", "Consultant Psychiatrist"], ar: ["د. محمد الحلاج", "استشاري الطب النفسي"], colors: ["#00B5E8", "#575CA8"] },
     { img: "assets/team/6.png", initials: { en: "ME", ar: "ما" }, en: ["Dr. Magda Emara", "Psychotherapist & Couple Therapist"], ar: ["د. ماجدة عمارة", "معالجة نفسية ومعالجة أزواج"], colors: ["#F89F1E", "#37B34A"] },
     { img: "assets/team/14.png", initials: { en: "DM", ar: "دي" }, en: ["Dina Mouhran", "Counseling Psychologist & Couple Therapist"], ar: ["دينا مهران", "أخصائية نفسية إرشادية ومعالجة أزواج"], colors: ["#575CA8", "#F89F1E"] },
@@ -64,13 +65,6 @@
     teamTitle: "The people behind Self",
     teamSub: "A multidisciplinary team of psychologists, psychiatrists, therapists, and nutritionists — chosen for their expertise, and for their empathy.",
     teamMore: "Meet the full team",
-    founderKicker: "Founder",
-    founderName: "Mahmoud Zaki",
-    founderRole: "Counseling Psychologist · Founder of Self Center",
-    founderInitials: "MZ",
-    founderCreds: ["MSc Counseling Psychology — University of Westminster", "NCFED & NCEED trained, UK", "Sports Mental Health — Western University", "Founder of SELF-ED · Author of 3 books"],
-    founderBio1: "Mahmoud is a leading eating-disorders therapist in Egypt. Over the past 10 years he has worked with individuals and families to overcome maladaptive eating behaviors, bariatric surgery rehabilitation, addiction, and body-image issues — alongside related struggles such as grief, trauma, mood, and personality disorders.",
-    founderBio2: "Trained with the UK’s National Centre for Eating Disorders (NCFED) and NCEED after his master’s at the University of Westminster, he has developed treatment programs in Egypt and the UK, authored three Arabic books on mental health, and founded SELF-ED — the first Arabic/English platform raising awareness of eating problems in the Middle East.",
     valuesKicker: "Our approach",
     valuesTitle: "What we stand for",
     values: [
@@ -159,13 +153,6 @@
     teamTitle: "الفريق وراء «سيلف»",
     teamSub: "فريق متعدد التخصصات من الأخصائيين والأطباء النفسيين والمعالجين وأخصائيي التغذية — اخترناهم لخبرتهم وإنسانيتهم.",
     teamMore: "تعرّف على الفريق كاملًا",
-    founderKicker: "المؤسس",
-    founderName: "محمود زكي",
-    founderRole: "أخصائي نفسي إرشادي · مؤسس مركز سيلف",
-    founderInitials: "مز",
-    founderCreds: ["ماجستير علم النفس الإرشادي — جامعة وستمنستر", "تدريب NCFED وNCEED — بريطانيا", "دبلومة الصحة النفسية الرياضية — جامعة وسترن", "مؤسس SELF-ED ومؤلف ٣ كتب"],
-    founderBio1: "محمود من أبرز معالجي اضطرابات الأكل في مصر. عمل على مدى عشر سنوات مع الأفراد والأسر للتغلب على سلوكيات الأكل المضطربة، والتأهيل بعد جراحات السمنة، والإدمان، ومشكلات صورة الجسد — إلى جانب صعوبات مرتبطة كالفقد والصدمات واضطرابات المزاج والشخصية.",
-    founderBio2: "تدرّب لدى المركز الوطني لاضطرابات الأكل في بريطانيا (NCFED) وNCEED بعد ماجستيره من جامعة وستمنستر، وطوّر برامج علاجية في مصر وبريطانيا، وألّف ثلاثة كتب عربية عن الصحة النفسية، وأسس «SELF-ED» — أول منصة عربية/إنجليزية للتوعية بمشكلات الأكل في الشرق الأوسط.",
     valuesKicker: "نهجنا",
     valuesTitle: "قيمنا",
     values: [

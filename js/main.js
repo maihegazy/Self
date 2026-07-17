@@ -119,27 +119,6 @@
     setText("teamSub", d.teamSub);
     setText("teamMoreLink", d.teamMore + " →");
 
-    setText("founderKicker", d.founderKicker);
-    setText("founderName", d.founderName);
-    setText("founderRole", d.founderRole);
-    setText("founderBio1", d.founderBio1);
-    setText("founderBio2", d.founderBio2);
-
-    var avatarWrap = document.getElementById("founderAvatar");
-    avatarWrap.innerHTML = "";
-    var founderImg = el("img", { src: "assets/founder.png", alt: d.founderName, class: "founder-avatar-img" });
-    founderImg.addEventListener("error", function () {
-      var fallback = el("div", { class: "founder-avatar-fallback" }, [document.createTextNode(d.founderInitials)]);
-      founderImg.replaceWith(fallback);
-    }, { once: true });
-    avatarWrap.appendChild(founderImg);
-
-    var creds = document.getElementById("founderCreds");
-    creds.innerHTML = "";
-    d.founderCreds.forEach(function (cr) {
-      creds.appendChild(el("span", { text: cr }));
-    });
-
     var grid = document.getElementById("teamGrid");
     grid.innerHTML = "";
     I18N.TEAM_META.forEach(function (m) {
