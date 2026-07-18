@@ -17,7 +17,9 @@
     { img: "assets/team/13.png", initials: { en: "SE", ar: "سه" }, en: ["Soha ElSokkary", "Counseling Psychologist"], ar: ["سها السكري", "أخصائية نفسية إرشادية"], colors: ["#575CA8", "#00B5E8"] },
     { img: "assets/team/8.png", initials: { en: "NM", ar: "نو" }, en: ["Nour Mahmoud", "Child Psychologist"], ar: ["نور محمود", "أخصائية نفسية للأطفال"], colors: ["#F89F1E", "#00B5E8"] },
     { img: "assets/team/4.png", initials: { en: "SH", ar: "سه" }, en: ["Sohila Hassan", "Nutritionist & ED Dietitian"], ar: ["سهيلة حسن", "أخصائية تغذية لاضطرابات الأكل"], colors: ["#37B34A", "#575CA8"] },
-    { img: "assets/team/11.png", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "أخصائية تحت التدريب"], colors: ["#00B5E8", "#575CA8"] }
+    { img: "assets/team/11.png", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "أخصائية تحت التدريب"], colors: ["#00B5E8", "#575CA8"] },
+    { img: "assets/team/malak.png", initials: { en: "MH", ar: "فن" }, en: ["Malak Helal", "Clinical Psychologist"], ar: ["ملك هلال", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] }
+
   ];
 
   var ICON_PAIRS = [
