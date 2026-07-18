@@ -4,20 +4,20 @@
   "use strict";
 
   var TEAM_META = [
-    { img: "assets/team/1.png", initials: { en: "MZ", ar: "مز" }, en: ["Mahmoud Zaki", "Counseling Psychologist · Founder of Self Center"], ar: ["محمود زكي", "أخصائي نفسي إرشادي · مؤسس مركز سيلف"], colors: ["#00B5E8", "#F89F1E"] },
+    { img: "assets/team/1.png", initials: { en: "MZ", ar: "مز" }, en: ["Mahmoud Zaki", "Counseling Psychologist · Founder of Self Center"], ar: ["محمود زكي", "أخصائي نفسي · مؤسس مركز سيلف"], colors: ["#00B5E8", "#F89F1E"] },
     { img: "assets/team/2.png", initials: { en: "MA", ar: "مح" }, en: ["Dr. Mohamed Al-Hallag", "Consultant Psychiatrist"], ar: ["د. محمد الحلاج", "استشاري الطب النفسي"], colors: ["#00B5E8", "#575CA8"] },
     { img: "assets/team/6.png", initials: { en: "ME", ar: "ما" }, en: ["Dr. Magda Emara", "Psychotherapist & Couple Therapist"], ar: ["د. ماجدة عمارة", "معالجة نفسية ومعالجة أزواج"], colors: ["#F89F1E", "#37B34A"] },
     { img: "assets/team/14.png", initials: { en: "DM", ar: "دي" }, en: ["Dina Mouhran", "Counseling Psychologist & Couple Therapist"], ar: ["دينا مهران", "أخصائية نفسية إرشادية ومعالجة أزواج"], colors: ["#575CA8", "#F89F1E"] },
     { img: "assets/team/10.png", initials: { en: "SE", ar: "سل" }, en: ["Salma El-Baradie", "Existential Psychotherapist"], ar: ["سلمى البرادعي", "معالجة نفسية وجودية"], colors: ["#37B34A", "#00B5E8"] },
-    { img: "assets/team/5.png", initials: { en: "HH", ar: "هب" }, en: ["Heba Hamza", "Clinical Psychologist · Perinatal Mental Health"], ar: ["هبة حمزة", "أخصائية نفسية إكلينيكية · الصحة النفسية للأمهات"], colors: ["#00B5E8", "#F89F1E"] },
+    { img: "assets/team/5.png", initials: { en: "HH", ar: "هب" }, en: ["Heba Hamza", "Clinical Psychologist · Perinatal Mental Health"], ar: ["هبة حمزة", "أخصائية نفسية إكلينيكية · متخصصة الصحة النفسية للأمهات"], colors: ["#00B5E8", "#F89F1E"] },
     { img: "assets/team/7.png", initials: { en: "IT", ar: "إي" }, en: ["Imane Tazi", "Clinical Psychologist"], ar: ["إيمان تازي", "أخصائية نفسية إكلينيكية"], colors: ["#575CA8", "#37B34A"] },
     { img: "assets/team/9.png", initials: { en: "FB", ar: "فب" }, en: ["Farida Badran", "Clinical Psychologist"], ar: ["فريدة بدران", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] },
-    { img: "assets/team/12.png", initials: { en: "HH", ar: "هن" }, en: ["Hana Habib", "Clinical Psychologist · Eating Disorders"], ar: ["هنا حبيب", "أخصائية نفسية إكلينيكية · اضطرابات الأكل"], colors: ["#37B34A", "#F89F1E"] },
-    { img: "assets/team/3.png", initials: { en: "SS", ar: "سا" }, en: ["Sara Soliman", "Psychologist & ED Therapist"], ar: ["سارة سليمان", "أخصائية نفسية ومعالجة اضطرابات أكل"], colors: ["#00B5E8", "#37B34A"] },
+    { img: "assets/team/12.png", initials: { en: "HH", ar: "هن" }, en: ["Hana Habib", "Clinical Psychologist · Eating Disorders"], ar: ["هنا حبيب", "أخصائية نفسية إكلينيكية و معالجة اضطرابات الأكل"], colors: ["#37B34A", "#F89F1E"] },
+    { img: "assets/team/3.png", initials: { en: "SS", ar: "سا" }, en: ["Sara Soliman", "Psychologist & ED Therapist"], ar: ["سارة سليمان", "أخصائية نفسية ومعالجة اضطرابات الأكل"], colors: ["#00B5E8", "#37B34A"] },
     { img: "assets/team/13.png", initials: { en: "SE", ar: "سه" }, en: ["Soha ElSokkary", "Counseling Psychologist"], ar: ["سها السكري", "أخصائية نفسية إرشادية"], colors: ["#575CA8", "#00B5E8"] },
     { img: "assets/team/8.png", initials: { en: "NM", ar: "نو" }, en: ["Nour Mahmoud", "Child Psychologist"], ar: ["نور محمود", "أخصائية نفسية للأطفال"], colors: ["#F89F1E", "#00B5E8"] },
     { img: "assets/team/4.png", initials: { en: "SH", ar: "سه" }, en: ["Sohila Hassan", "Nutritionist & ED Dietitian"], ar: ["سهيلة حسن", "أخصائية تغذية لاضطرابات الأكل"], colors: ["#37B34A", "#575CA8"] },
-    { img: "assets/team/11.png", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "معالجة تحت التدريب"], colors: ["#00B5E8", "#575CA8"] }
+    { img: "assets/team/11.png", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "أخصائية تحت التدريب"], colors: ["#00B5E8", "#575CA8"] }
   ];
 
   var ICON_PAIRS = [
@@ -76,7 +76,7 @@
     ],
     testiKicker: "Testimonials",
     testiTitle: "Words from our clients",
-    testiPlaceholderNote: "PLACEHOLDER QUOTES — replace with real anonymized client feedback",
+    testiPlaceholderNote: "",
     testimonials: [
       { quote: "For the first time I felt someone actually understood my relationship with food, without judging me.", who: "Client, eating disorder program" },
       { quote: "The sessions gave me tools I use every single day. I finally feel in control of my anxiety.", who: "Client, individual therapy" },
@@ -107,7 +107,7 @@
     successSub: "Thank you, we’ll get back to you shortly to confirm your session time.",
     successAgain: "Send another request",
     cPhone: "Phone", cEmail: "Email", cLocation: "Location",
-    cAddress: "Sodic West, Sheikh Zayed, Giza",
+    cAddress: "Sodic West, Sheikh Zayed, Giza, Egypt",
     cHours: "Hours", cHoursVal: "Sat – Thu · 10:00 AM – 10:00 PM",
     footerWordmark: "Counseling center",
     copyright: "© 2026 Self Counseling Center. All rights reserved.",
@@ -122,61 +122,61 @@
     langBtn: "English",
     bookCta: "احجز جلسة",
     heroTitle: "اشعر بالراحة داخل عقلك.",
-    heroSub: "«سيلف» مركز استشارات نفسية في الشيخ زايد، مصر. نساعدك على فهم نفسك والاعتناء بصحتك النفسية والنمو — بإيقاعك الخاص، وفي مساحة تشعر فيها بالأمان.",
+    heroSub: "«سيلف» مركز استشارات نفسية في القاهرة، مصر. نساعدك على فهم نفسك والاعتناء بصحتك النفسية والنمو بإيقاعك الخاص، وفي مساحة تشعر فيها بالأمان.",
     heroSecondary: "تعرّف على خدماتنا",
     aboutKicker: "عن سيلف",
-    aboutTitle: "علاج نفسي يبدأ بفهمك أنت",
-    aboutP1: "في «سيلف» نؤمن أن طلب الدعم فعلُ قوة. مهمتنا أن نجعل الرعاية النفسية عالية الجودة والقائمة على الأدلة في متناول الجميع، من خلال نهج رحيم وأخلاقي وتعاوني.",
-    aboutP2: "تأسس «سيلف» في الشيخ زايد بمصر، ويضم فريقًا متعدد التخصصات من الأخصائيين النفسيين والأطباء النفسيين وأخصائيي التغذية، لدعم الأطفال والمراهقين والبالغين والأزواج والأسر. بدلًا من الحلول الجاهزة، نصمم كل خطة علاج وفق احتياجاتك وأهدافك وقيمك وظروف حياتك.",
+    aboutTitle: "علاج نفسي يبدأ بفهمك لنفسك",
+    aboutP1: "نؤمن في «سيلف» أن طلب المساعدة قوة. مهمتنا أن نقدم الرعاية و الدعم النفسي متاح بجودة عالية للجميع، من خلال رؤية احترافية وأخلاقية.",
+    aboutP2: "تأسس «سيلف» في مصر، مكوناً من فريق متعدد التخصصات من الأخصائيين النفسيين والأطباء النفسيين وأخصائيي التغذية، لدعم الأطفال والمراهقين والبالغين والأزواج والأسر. يصمم فريقنا العلاجي كل خطة علاج وفق احتياجاتك وأهدافك وقيمك وظروف حياتك.",
     aboutStats: [
       { label: "مساحة آمنة خالية من الأحكام", color: "#00B5E8" },
       { label: "رعاية متخصصة قائمة على الأدلة", color: "#F89F1E" },
-      { label: "جلسات في العيادة وأونلاين", color: "#575CA8" },
-      { label: "بالعربية والإنجليزية", color: "#37B34A" }
+      { label: "جلسات في المركز وأونلاين", color: "#575CA8" },
+      { label: "بالعربية والإنجليزية والفرنسية", color: "#37B34A" }
     ],
     servicesKicker: "خدماتنا",
     servicesTitle: "كيف يمكننا مساعدتك",
-    servicesSub: "رعاية متخصصة ومركزة — في العيادة أو أونلاين.",
+    servicesSub: "رعاية متخصصة ومركزة , في المركز أو أونلاين.",
     services: [
       { name: "العلاج الفردي", desc: "علاج نفسي مخصص للبالغين والمراهقين والأطفال بأساليب قائمة على الأدلة." },
       { name: "علاج الأزواج", desc: "تحسين التواصل وحل الخلافات وإعادة بناء الثقة في العلاقة." },
-      { name: "العلاج الأسري", desc: "أنماط تواصل أكثر صحة ودعم للأسرة في مراحل التغيير — معًا." },
+      { name: "العلاج الأسري", desc: "أنماط تواصل أكثر صحة ودعم للأسرة في مراحل التغيير , معًا." },
       { name: "خدمات الطب النفسي", desc: "تقييم شامل وتشخيص وإدارة للأدوية ورعاية متكاملة." },
       { name: "علاج اضطرابات الأكل", desc: "رعاية متعددة التخصصات لفقدان الشهية والشره ونوبات الأكل القهري والأكل العاطفي." },
       { name: "استشارات التغذية", desc: "دعم غذائي متخصص لاضطرابات الأكل وبناء علاقة أكثر صحة مع الطعام." },
       { name: "التقييمات النفسية", desc: "تقييمات قائمة على الأدلة للتشخيص وخطط العلاج والتطور الشخصي." },
       { name: "مجموعات وورش عمل", desc: "ورش تثقيفية ومجموعات علاجية حول الصحة النفسية والتربية والعلاقات والضغوط." },
       { name: "برامج الشركات", desc: "ورش وندوات واستشارات نفسية لرفاهية الموظفين وبيئات عمل أكثر صحة." },
-      { name: "العلاج أونلاين", desc: "جلسات آمنة عبر الإنترنت للعملاء داخل مصر وخارجها — بالعربية أو الإنجليزية." }
+      { name: "العلاج أونلاين", desc: "جلسات آمنة عبر الإنترنت للعملاء داخل مصر وخارجها , أبالعربية أو الإنجليزية أو الفرنسية." }
     ],
     teamKicker: "تعرّف على الفريق",
-    teamTitle: "الفريق وراء «سيلف»",
-    teamSub: "فريق متعدد التخصصات من الأخصائيين والأطباء النفسيين والمعالجين وأخصائيي التغذية — اخترناهم لخبرتهم وإنسانيتهم.",
+    teamTitle: "فريق مركز «سيلف»",
+    teamSub: "فريق متعدد التخصصات من الأخصائيين والأطباء النفسيين والمعالجين وأخصائيي التغذية , اخترناهم لخبرتهم وإنسانيتهم.",
     teamMore: "تعرّف على الفريق كاملًا",
     valuesKicker: "نهجنا",
     valuesTitle: "قيمنا",
     values: [
-      { name: "ممارسة قائمة على الأدلة", desc: "أساليب مبنية على أحدث الأبحاث العلمية — لا تخمين." },
-      { name: "رعاية رحيمة", desc: "بلا أحكام، إنسانية ودافئة. تُسمَع قبل أي شيء آخر." },
-      { name: "أخلاقيات وسرّية", desc: "أخلاقيات المهنة تحكم كل ما نقوم به؛ ما يُقال يبقى سرّيًا." },
-      { name: "احترام التنوع", desc: "رعاية تحترم فرديتك وثقافتك وقيمك ولغتك." },
+      { name: "ممارسة قائمة على الأدلة", desc: "أساليب مبنية على أحدث الأبحاث العلمية , لا تخمين." },
+      { name: "رعاية إنسانية", desc: "بلا أحكام، إنسانية ودافئة. تُسمَع قبل أي شيء آخر." },
+      { name: "أخلاقيات المهنة والسرّية", desc: "أخلاقيات المهنة تحكم كل ما نقوم به؛ ما يُقال يبقى سرّيًا." },
+      { name: "احترام التنوع و الاختلاف", desc: "رعاية تحترم فرديتك وثقافتك وقيمك ولغتك." },
       { name: "تعلّم مستمر", desc: "فريق متعاون ملتزم بالنمو والتعلم مدى الحياة." }
     ],
     testiKicker: "آراء عملائنا",
     testiTitle: "كلمات من عملائنا",
-    testiPlaceholderNote: "اقتباسات مؤقتة — استبدلها بآراء حقيقية مجهولة الهوية",
+    testiPlaceholderNote:"",
     testimonials: [
-      { quote: "لأول مرة شعرت أن أحدًا يفهم علاقتي بالطعام فعلًا — دون أن يحكم عليّ. [نص مؤقت]", who: "عميلة، برنامج اضطرابات الأكل" },
-      { quote: "أعطتني الجلسات أدوات أستخدمها كل يوم. أخيرًا أشعر أنني أتحكم في قلقي. [نص مؤقت]", who: "عميل، علاج فردي" },
-      { quote: "تغيّر أدائي في الملعب عندما تغيّرت عقليتي. هذا العمل لا يقل أهمية عن التدريب. [نص مؤقت]", who: "رياضي، علم النفس الرياضي" }
+      { quote: "لأول مرة شعرت أن أحدًا يفهم علاقتي بالطعام فعلًا — دون أن يحكم عليّ. ", who: "عميلة، برنامج اضطرابات الأكل" },
+      { quote: "أعطتني الجلسات أدوات أستخدمها كل يوم. أخيرًا أشعر أنني أتعامل أفضل مع قلقي.", who: "عميل، علاج فردي" },
+      { quote: "تغيّر أدائي في الملعب عندما تغيّرت عقليتي. الدعم النفسي لا يقل أهمية عن التدريب. ", who: "رياضي، علم النفس الرياضي" }
     ],
     faqKicker: "الأسئلة الشائعة",
     faqTitle: "أسئلة متكررة",
     faqs: [
       { q: "كيف أحجز جلسة؟", a: "استخدم نموذج الحجز بالأسفل، أو اتصل بنا، أو راسلنا على إنستغرام. سنؤكد لك موعدًا مناسبًا، عادةً خلال يوم عمل واحد." },
       { q: "هل كل ما أشاركه سرّي؟", a: "نعم. السرية أساس عملنا. لا يخرج شيء مما تشاركه من الجلسة، إلا في الحالات النادرة التي يقتضيها القانون أو السلامة، وسيشرحها لك معالجك في الجلسة الأولى." },
-      { q: "هل تقدمون جلسات أونلاين؟", a: "نعم — جلسات فيديو آمنة بالعربية أو الإنجليزية، بنفس عناية وهيكل الجلسات في العيادة. كثير من عملائنا يجمعون بين الاثنين." },
-      { q: "ماذا أتوقع في الجلسة الأولى؟", a: "الجلسة الأولى حوار هادئ: نتعرف عليك، ونفهم ما الذي أتى بك، ونتفق معًا على الطريق. لا شيء تحتاج تحضيره — تعال كما أنت." }
+      { q: "هل تقدمون جلسات أونلاين؟", a: "نعم — جلسات فيديو آمنة بالعربية أو الإنجليزية، بنفس عناية وهيكل الجلسات في مركز. كثير من عملائنا يجمعون بين الاثنين." },
+      { q: "ماذا أتوقع في الجلسة الأولى؟", a: "الجلسة الأولى حوار هادئ: نتعرف عليك، ونفهم ما الذي أتى بك، ونتفق معًا على الطريق. لا شيء تحتاج تحضيره , تعال كما أنت." }
     ],
     contactKicker: "تواصل · احجز",
     contactTitle: "احجز جلستك الأولى",
@@ -195,7 +195,7 @@
     successSub: "شكرًا لك — سنتواصل معك قريبًا لتأكيد موعد جلستك.",
     successAgain: "إرسال طلب آخر",
     cPhone: "الهاتف", cEmail: "البريد", cLocation: "العنوان",
-    cAddress: "سوديك ويست، الشيخ زايد، الجيزة",
+    cAddress: "سوديك ويست، الشيخ زايد، الجيزة، مصر",
     cHours: "مواعيد العمل", cHoursVal: "السبت – الخميس · ١٠ صباحًا – ١٠ مساءً",
     footerWordmark: "مركز استشارات نفسية",
     copyright: "© 2026 مركز سيلف للاستشارات النفسية. جميع الحقوق محفوظة.",
