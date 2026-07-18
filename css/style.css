@@ -111,6 +111,7 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,.7);
   font-weight: 700;
   transition: border-color .2s, color .2s;
+  padding: 10px 20px;
 }
 .btn-outline:hover { border-color: rgba(87,92,168,.5); color: var(--purple); }
 .btn-lg { font-size: 17px; font-weight: 800; padding: 15px 32px; }
