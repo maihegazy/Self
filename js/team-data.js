@@ -140,17 +140,16 @@
         title: "Clinical Psychologist & Perinatal Mental Health Specialist",
         tags: ["Perinatal mental health", "Culturally competent", "6+ years"],
         paras: [
-          "Heba is a clinical psychologist and mental health counselor who has been practicing for the past six years, with earlier experience through practicums and internships in varied settings. She uses an eclectic approach guided by each client’s individual needs, with a major focus on ensuring clients feel seen, heard, and validated in a non-judgmental, safe space.",
-          "A culturally competent therapist, Heba practices cultural humility, working to dispel stigma within diverse and marginalized communities. Her experience spans psychiatric hospitals, non-profits, psychosocial counseling centers, private practice, psycho-educational programs, university student counseling, and academic research."
-        ]
+          "Heba is a clinical psychologist and Maternal mental health expert with a master degree in clinical psychology from Germany. She uses an eclectic approach guided by each client’s individual needs, with a major focus on ensuring clients feel seen, heard, and validated in a non-judgmental, safe space. She is trained in various therapy approaches including but not limited to CBT, DBT- skills, Schema Therapy, and Acceptance and Commitment Therapy.",
+          "A culturally competent therapist, Heba practices cultural humility, working to dispel stigma within diverse and marginalized communities. Her experience spans psychiatric hospitals, non-profits, psychosocial counseling centers, private practice, psycho-educational programs, university student counseling, and academic research."        ]
       },
       ar: {
         name: "هبة حمزة",
         title: "أخصائية نفسية إكلينيكية ومتخصصة في الصحة النفسية للأمومة",
         tags: ["الصحة النفسية للأمومة", "الكفاءة الثقافية", "أكثر من ٦ سنوات"],
         paras: [
-          "هبة أخصائية نفسية إكلينيكية ومعالِجة للصحة النفسية، إلى جانب خبرة سابقة عبر تدريبات عملية في سياقات متنوعة. تتبنّى نهجًا انتقائيًا يسترشد باحتياجات كل عميل، مع تركيز كبير على أن يشعر العميل بأنه مرئي ومسموع ومتقبَّل في مساحة آمنة خالية من الأحكام.",
-          "وبوصفها معالِجة ذات كفاءة ثقافية، تمارس هبة التواضع الثقافي وتعمل على تبديد وصمة العار داخل المجتمعات المتنوعة والمهمَّشة. تمتد خبرتها عبر مستشفيات الطب النفسي والمنظمات غير الربحية ومراكز الإرشاد النفسي والاجتماعي والعيادات الخاصة والبرامج النفسية التعليمية وإرشاد طلاب الجامعات والبحث الأكاديمي."
+          "هبة هي أخصائية نفسية إكلينيكية وخبيرة في الصحة النفسية للأم، حاصلة على درجة الماجستير في علم النفس الإكلينيكي من ألمانيا. تتبع هبة نهجًا علاجيًا تكامليًا يُصمَّم وفقًا للاحتياجات الفردية لكل عميل، مع التركيز على توفير مساحة آمنة وخالية من الأحكام، يشعر فيها العميل بأنه مسموع، ومفهوم، ومُقدَّر. وقد تلقت تدريبًا في مجموعة متنوعة من الأساليب العلاجية، من بينها العلاج المعرفي السلوكي (CBT)، ومهارات العلاج السلوكي الجدلي (DBT Skills)، والعلاج بالمخططات (Schema Therapy)، والعلاج بالقبول والالتزام (ACT).",
+          "تتميز هبة بالكفاءة في تقديم الرعاية النفسية للأشخاص من خلفيات ثقافية متنوعة، وتتبنى نهج التواضع الثقافي، وتسعى إلى المساهمة في الحد من الوصمة المرتبطة بالصحة النفسية داخل المجتمعات المتنوعة والفئات المهمشة. وتشمل خبراتها العمل في المستشفيات النفسية، والمؤسسات غير الربحية، ومراكز الدعم النفسي والاجتماعي، والعيادات الخاصة، والبرامج التثقيفية النفسية، وخدمات الإرشاد النفسي لطلاب الجامعات، بالإضافة إلى مشاركتها في الأبحاث الأكاديمية."
         ]
       }
     },
