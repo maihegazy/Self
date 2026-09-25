@@ -4,23 +4,23 @@
   "use strict";
 
   var TEAM_META = [
-    { img: "assets/team/1.png", initials: { en: "MZ", ar: "مز" }, en: ["Mahmoud Zaki", "Counseling Psychologist · Founder of Self Center"], ar: ["محمود زكي", "أخصائي نفسي · مؤسس مركز سيلف"], colors: ["#00B5E8", "#F89F1E"] },
-    { img: "assets/team/2.png", initials: { en: "MA", ar: "مح" }, en: ["Dr. Mohamed Al-Hallag", "Consultant Psychiatrist"], ar: ["د. محمد الحلاج", "استشاري الطب النفسي"], colors: ["#00B5E8", "#575CA8"] },
-    { img: "assets/team/6.png", initials: { en: "ME", ar: "ما" }, en: ["Dr. Magda Emara", "Psychotherapist & Couple Therapist"], ar: ["د. ماجدة عمارة", "معالجة نفسية ومعالجة أزواج"], colors: ["#F89F1E", "#37B34A"] },
-    { img: "assets/team/14.png", initials: { en: "DM", ar: "دي" }, en: ["Dina Mouhran", "Counseling Psychologist & Couple Therapist"], ar: ["دينا مهران", "أخصائية نفسية إرشادية ومعالجة أزواج"], colors: ["#575CA8", "#F89F1E"] },
-    { img: "assets/team/10.png", initials: { en: "SE", ar: "سل" }, en: ["Salma El-Baradie", "Existential Psychotherapist"], ar: ["سلمى البرادعي", "معالجة نفسية وجودية"], colors: ["#37B34A", "#00B5E8"] },
-    { img: "assets/team/5.png", initials: { en: "HH", ar: "هب" }, en: ["Heba Hamza", "Clinical Psychologist · Perinatal Mental Health"], ar: ["هبة حمزة", "أخصائية نفسية إكلينيكية · متخصصة الصحة النفسية للأمهات"], colors: ["#00B5E8", "#F89F1E"] },
-    { img: "assets/team/7.png", initials: { en: "IT", ar: "إي" }, en: ["Imane Tazi", "Clinical Psychologist"], ar: ["إيمان تازي", "أخصائية نفسية إكلينيكية"], colors: ["#575CA8", "#37B34A"] },
-    { img: "assets/team/9.png", initials: { en: "FB", ar: "فب" }, en: ["Farida Badran", "Clinical Psychologist"], ar: ["فريدة بدران", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] },
-    { img: "assets/team/12.png", initials: { en: "HH", ar: "هن" }, en: ["Hana Habib", "Clinical Psychologist · Eating Disorders"], ar: ["هنا حبيب", "أخصائية نفسية إكلينيكية و معالجة اضطرابات الأكل"], colors: ["#37B34A", "#F89F1E"] },
-    { img: "assets/team/3.png", initials: { en: "SS", ar: "سا" }, en: ["Sara Soliman", "Psychologist & ED Therapist"], ar: ["سارة سليمان", "أخصائية نفسية ومعالجة اضطرابات الأكل"], colors: ["#00B5E8", "#37B34A"] },
-    { img: "assets/team/13.png", initials: { en: "SE", ar: "سه" }, en: ["Soha ElSokkary", "Counseling Psychologist"], ar: ["سها السكري", "أخصائية نفسية إرشادية"], colors: ["#575CA8", "#00B5E8"] },
-    { img: "assets/team/8.png", initials: { en: "NM", ar: "نو" }, en: ["Nour Mahmoud", "Child Psychologist"], ar: ["نور محمود", "أخصائية نفسية للأطفال"], colors: ["#F89F1E", "#00B5E8"] },
-    { img: "assets/team/4.png", initials: { en: "SH", ar: "سه" }, en: ["Sohila Hassan", "Nutritionist & ED Dietitian"], ar: ["سهيلة حسن", "أخصائية تغذية لاضطرابات الأكل"], colors: ["#37B34A", "#575CA8"] },
-    { img: "assets/team/11.png", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "أخصائية تحت التدريب"], colors: ["#00B5E8", "#575CA8"] },
-    { img: "assets/team/malak.png", initials: { en: "MH", ar: "فن" }, en: ["Malak Helal", "Clinical Psychologist"], ar: ["ملك هلال", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] },
-    { img: "assets/team/dina-elsheikh.png", initials: { en: "DE", ar: "دي" }, en: ["Dr. Dina Elsheikh", "Specialist Psychiatrist"], ar: ["د. دينا الشيخ", "أخصائية الطب النفسي"], colors: ["#575CA8", "#00B5E8"] },
-    { img: "assets/team/yousef-kheir.png", initials: { en: "YK", ar: "يو" }, en: ["Yousef Kheir", "Clinical Psychologist & Child Therapist"], ar: ["يوسف خير", "أخصائي نفسي إكلينيكي ومعالج أطفال"], colors: ["#37B34A", "#00B5E8"] }
+    { img: "assets/team/1.webp", initials: { en: "MZ", ar: "مز" }, en: ["Mahmoud Zaki", "Counseling Psychologist · Founder of Self Center"], ar: ["محمود زكي", "أخصائي نفسي · مؤسس مركز سيلف"], colors: ["#00B5E8", "#F89F1E"] },
+    { img: "assets/team/2.webp", initials: { en: "MA", ar: "مح" }, en: ["Dr. Mohamed Al-Hallag", "Consultant Psychiatrist"], ar: ["د. محمد الحلاج", "استشاري الطب النفسي"], colors: ["#00B5E8", "#575CA8"] },
+    { img: "assets/team/6.webp", initials: { en: "ME", ar: "ما" }, en: ["Dr. Magda Emara", "Psychotherapist & Couple Therapist"], ar: ["د. ماجدة عمارة", "معالجة نفسية ومعالجة أزواج"], colors: ["#F89F1E", "#37B34A"] },
+    { img: "assets/team/14.webp", initials: { en: "DM", ar: "دي" }, en: ["Dina Mouhran", "Counseling Psychologist & Couple Therapist"], ar: ["دينا مهران", "أخصائية نفسية إرشادية ومعالجة أزواج"], colors: ["#575CA8", "#F89F1E"] },
+    { img: "assets/team/10.webp", initials: { en: "SE", ar: "سل" }, en: ["Salma El-Baradie", "Existential Psychotherapist"], ar: ["سلمى البرادعي", "معالجة نفسية وجودية"], colors: ["#37B34A", "#00B5E8"] },
+    { img: "assets/team/5.webp", initials: { en: "HH", ar: "هب" }, en: ["Heba Hamza", "Clinical Psychologist · Perinatal Mental Health"], ar: ["هبة حمزة", "أخصائية نفسية إكلينيكية · متخصصة الصحة النفسية للأمهات"], colors: ["#00B5E8", "#F89F1E"] },
+    { img: "assets/team/7.webp", initials: { en: "IT", ar: "إي" }, en: ["Imane Tazi", "Clinical Psychologist"], ar: ["إيمان تازي", "أخصائية نفسية إكلينيكية"], colors: ["#575CA8", "#37B34A"] },
+    { img: "assets/team/9.webp", initials: { en: "FB", ar: "فب" }, en: ["Farida Badran", "Clinical Psychologist"], ar: ["فريدة بدران", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] },
+    { img: "assets/team/12.webp", initials: { en: "HH", ar: "هن" }, en: ["Hana Habib", "Clinical Psychologist · Eating Disorders"], ar: ["هنا حبيب", "أخصائية نفسية إكلينيكية و معالجة اضطرابات الأكل"], colors: ["#37B34A", "#F89F1E"] },
+    { img: "assets/team/3.webp", initials: { en: "SS", ar: "سا" }, en: ["Sara Soliman", "Psychologist & ED Therapist"], ar: ["سارة سليمان", "أخصائية نفسية ومعالجة اضطرابات الأكل"], colors: ["#00B5E8", "#37B34A"] },
+    { img: "assets/team/13.webp", initials: { en: "SE", ar: "سه" }, en: ["Soha ElSokkary", "Counseling Psychologist"], ar: ["سها السكري", "أخصائية نفسية إرشادية"], colors: ["#575CA8", "#00B5E8"] },
+    { img: "assets/team/8.webp", initials: { en: "NM", ar: "نو" }, en: ["Nour Mahmoud", "Child Psychologist"], ar: ["نور محمود", "أخصائية نفسية للأطفال"], colors: ["#F89F1E", "#00B5E8"] },
+    { img: "assets/team/4.webp", initials: { en: "SH", ar: "سه" }, en: ["Sohila Hassan", "Nutritionist & ED Dietitian"], ar: ["سهيلة حسن", "أخصائية تغذية لاضطرابات الأكل"], colors: ["#37B34A", "#575CA8"] },
+    { img: "assets/team/11.webp", initials: { en: "FN", ar: "فن" }, en: ["Farida Naguib", "Therapist in Training"], ar: ["فريدة نجيب", "أخصائية تحت التدريب"], colors: ["#00B5E8", "#575CA8"] },
+    { img: "assets/team/malak.webp", initials: { en: "MH", ar: "فن" }, en: ["Malak Helal", "Clinical Psychologist"], ar: ["ملك هلال", "أخصائية نفسية إكلينيكية"], colors: ["#F89F1E", "#575CA8"] },
+    { img: "assets/team/dina-elsheikh.webp", initials: { en: "DE", ar: "دي" }, en: ["Dr. Dina Elsheikh", "Specialist Psychiatrist"], ar: ["د. دينا الشيخ", "أخصائية الطب النفسي"], colors: ["#575CA8", "#00B5E8"] },
+    { img: "assets/team/yousef-kheir.webp", initials: { en: "YK", ar: "يو" }, en: ["Yousef Kheir", "Clinical Psychologist & Child Therapist"], ar: ["يوسف خير", "أخصائي نفسي إكلينيكي ومعالج أطفال"], colors: ["#37B34A", "#00B5E8"] }
 
   ];
 
@@ -38,7 +38,7 @@
     langBtn: "العربية",
     bookCta: "Book a session",
     heroTitle: "Where Healing Begins.",
-    heroSub: "Self Center is a multidisciplinary mental health center based in Cairo, Egypt, offering psychotherapy, psychiatry, and nutrition counseling. We provide compassionate, evidence-based care in a safe and welcoming environment, helping individuals and families heal, grow, and thrive.",
+    heroSub: "Self Center is a multidisciplinary mental health center based in Sheikh Zayed, Giza, offering psychotherapy, psychiatry, and nutrition counseling. We provide compassionate, evidence-based care in a safe and welcoming environment, helping individuals and families heal, grow, and thrive.",
     heroSecondary: "Explore our services",
     aboutKicker: "About Self",
     aboutTitle: "Therapy that starts with understanding you",
@@ -126,7 +126,7 @@
     langBtn: "English",
     bookCta: "احجز جلسة",
     heroTitle: "حيث تبدأ راحتك النفسية",
-    heroSub: "سيلف سنتر هو مركز متخصص في الصحة النفسية في القاهرة، مصر، يقدّم خدمات العلاج النفسي والاستشارات النفسية والغذائية. نوفر رعاية قائمة على الأدلة العلمية، تتسم بالتعاطف، داخل بيئة آمنة، لمساعدة الأفراد والأسر على التعافي والنمو وتحقيق حياة أكثر توازنًا وازدهارًا.",
+    heroSub: "سيلف سنتر هو مركز متخصص في الصحة النفسية في الشيخ زايد، الجيزة، يقدّم خدمات العلاج النفسي والاستشارات النفسية والغذائية. نوفر رعاية قائمة على الأدلة العلمية، تتسم بالتعاطف، داخل بيئة آمنة، لمساعدة الأفراد والأسر على التعافي والنمو وتحقيق حياة أكثر توازنًا وازدهارًا.",
     heroSecondary: "تعرّف على خدماتنا",
     aboutKicker: "عن سيلف",
     aboutTitle: "علاج نفسي يبدأ بفهمك لنفسك",
@@ -151,7 +151,7 @@
       { name: "التقييمات النفسية", desc: "تقييمات قائمة على الأدلة للتشخيص وخطط العلاج والتطور الشخصي." },
       { name: "مجموعات وورش عمل", desc: "ورش تثقيفية ومجموعات علاجية حول الصحة النفسية والتربية والعلاقات والضغوط." },
       { name: "برامج الشركات", desc: "ورش وندوات واستشارات نفسية لرفاهية الموظفين وبيئات عمل أكثر صحة." },
-      { name: "العلاج أونلاين", desc: "جلسات آمنة عبر الإنترنت للعملاء داخل مصر وخارجها , أبالعربية أو الإنجليزية أو الفرنسية." }
+      { name: "العلاج أونلاين", desc: "جلسات آمنة عبر الإنترنت للعملاء داخل مصر وخارجها، بالعربية أو الإنجليزية أو الفرنسية." }
     ],
     teamKicker: "تعرّف على الفريق",
     teamTitle: "فريق مركز «سيلف»",
@@ -179,7 +179,7 @@
     faqs: [
       { q: "كيف أحجز جلسة؟", a: "استخدم نموذج الحجز بالأسفل، أو اتصل بنا، أو راسلنا على إنستغرام. سنؤكد لك موعدًا مناسبًا، عادةً خلال يوم عمل واحد." },
       { q: "هل كل ما أشاركه سرّي؟", a: "نعم. السرية أساس عملنا. لا يخرج شيء مما تشاركه من الجلسة، إلا في الحالات النادرة التي يقتضيها القانون أو السلامة، وسيشرحها لك معالجك في الجلسة الأولى." },
-      { q: "هل تقدمون جلسات أونلاين؟", a: "نعم — جلسات فيديو آمنة بالعربية أو الإنجليزية، بنفس عناية وهيكل الجلسات في مركز. كثير من عملائنا يجمعون بين الاثنين." },
+      { q: "هل تقدمون جلسات أونلاين؟", a: "نعم — جلسات فيديو آمنة بالعربية أو الإنجليزية أو الفرنسية، بنفس عناية وهيكل الجلسات في المركز. كثير من عملائنا يجمعون بين الاثنين." },
       { q: "ماذا أتوقع في الجلسة الأولى؟", a: "الجلسة الأولى حوار هادئ: نتعرف عليك، ونفهم ما الذي أتى بك، ونتفق معًا على الطريق. لا شيء تحتاج تحضيره , تعال كما أنت." }
     ],
     contactKicker: "تواصل · احجز",
