@@ -145,17 +145,36 @@
     renderAll();
     addStructuredData();
     // Cards are rendered by script, after the browser's own jump-to-anchor, and
-    // web fonts can reflow the text above them, so jump again once they settle.
-    var target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    // late web fonts reflow the page (the two-row mobile nav changes height), so
+    // re-align on layout changes for a few seconds, until the visitor scrolls.
+    var hash = location.hash;
+    var target = hash && document.getElementById(decodeURIComponent(hash.slice(1)));
     if (target) {
-      // Offset by the sticky nav's real height (it wraps to two rows on phones).
+      // Hide the fragment while we position the card: otherwise the browser's own
+      // late jump-to-anchor (at load) lands on the card mid-animation and overshoots.
+      history.replaceState(null, "", location.pathname + location.search);
+      var restoreHash = function () { history.replaceState(null, "", location.pathname + location.search + hash); };
+      var nav = document.querySelector(".nav");
+      // offsetTop ignores the reveal animation's transform, unlike getBoundingClientRect.
       var jump = function () {
-        var nav = document.querySelector(".nav").getBoundingClientRect().height;
-        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - nav - 12, behavior: "instant" });
+        var top = 0;
+        for (var n = target; n; n = n.offsetParent) top += n.offsetTop;
+        window.scrollTo({ top: top - nav.offsetHeight - 12, behavior: "instant" });
       };
       jump();
-      if (document.fonts) document.fonts.ready.then(jump);
-      window.addEventListener("load", jump, { once: true });
+      if (window.ResizeObserver) {
+        var ro = new ResizeObserver(jump);
+        ro.observe(nav);
+        ro.observe(document.body);
+        var stopped = false;
+        var stop = function () { if (!stopped) { stopped = true; ro.disconnect(); } };
+        ["wheel", "touchstart", "keydown", "mousedown"].forEach(function (ev) {
+          window.addEventListener(ev, stop, { once: true, passive: true });
+        });
+        setTimeout(stop, 5000);
+      }
+      // The browser's own jump happens at load; after that the fragment can come back.
+      window.addEventListener("load", function () { jump(); setTimeout(restoreHash, 0); }, { once: true });
     }
     document.getElementById("langToggle").addEventListener("click", function () {
       state.lang = (state.lang === "ar") ? "en" : "ar";
