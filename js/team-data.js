@@ -71,6 +71,29 @@
       }
     },
     {
+      img: "assets/team/dina-elsheikh.png",
+      en: {
+        name: "Dr. Dina Elsheikh",
+        title: "Specialist Psychiatrist",
+        tags: ["Adult psychiatry", "Psychotherapy", "Forensic mental health", "10+ years"],
+        paras: [
+          "Dr. Dina is a dedicated and compassionate psychiatrist with over 10 years of clinical experience across adult psychiatry, psychotherapy, psychopharmacology, and forensic mental health. She has worked across a wide range of governmental and private psychiatric services in Egypt and the United Kingdom, developing broad expertise in the assessment and management of diverse and complex mental health difficulties. She is an Affiliate Member of the Royal College of Psychiatrists in the United Kingdom.",
+          "She completed a four-year Psychiatry Residency Training Programme within the Egyptian Ministry of Health and subsequently obtained her postgraduate degree (DPP) from Ain Shams University. Throughout her career, she has developed a strong interest in psychotherapy and has undertaken extensive training in a range of evidence-based psychotherapeutic approaches.",
+          "Her psychotherapy training includes Psychodynamic Psychotherapy, Object Relations Theory, and Cognitive Behavioural Therapy (CBT) through the Malachite Institute in Zamalek. She further developed her CBT skills through training with the Beck Institute and completed training in Dialectical Behaviour Therapy (DBT) with the Marsha Linehan Institute."
+        ]
+      },
+      ar: {
+        name: "د. دينا الشيخ",
+        title: "أخصائية الطب النفسي",
+        tags: ["الطب النفسي للبالغين", "العلاج النفسي", "الطب النفسي الشرعي", "أكثر من ١٠ سنوات"],
+        paras: [
+          "الدكتورة دينا طبيبة نفسية متفانية ورحيمة، تمتلك أكثر من ١٠ سنوات من الخبرة الإكلينيكية في الطب النفسي للبالغين والعلاج النفسي والعلاج الدوائي النفسي والطب النفسي الشرعي. عملت في مجموعة واسعة من خدمات الطب النفسي الحكومية والخاصة في مصر والمملكة المتحدة، واكتسبت خبرة واسعة في تقييم وعلاج صعوبات الصحة النفسية المتنوعة والمعقّدة. وهي عضو منتسب في الكلية الملكية للأطباء النفسيين بالمملكة المتحدة.",
+          "أتمّت برنامج الإقامة التدريبي في الطب النفسي لمدة أربع سنوات بوزارة الصحة المصرية، ثم حصلت على درجة الدراسات العليا (DPP) من جامعة عين شمس. وعلى مدار مسيرتها، طوّرت اهتمامًا كبيرًا بالعلاج النفسي، وتلقّت تدريبًا مكثفًا في مجموعة من أساليب العلاج النفسي القائمة على الأدلة.",
+          "يشمل تدريبها في العلاج النفسي العلاجَ النفسي الديناميكي، ونظرية العلاقة بالموضوع، والعلاج المعرفي السلوكي (CBT) من خلال معهد Malachite بالزمالك. كما طوّرت مهاراتها في العلاج المعرفي السلوكي عبر التدريب مع معهد Beck، وأتمّت تدريبًا في العلاج الجدلي السلوكي (DBT) مع معهد Marsha Linehan."
+        ]
+      }
+    },
+    {
       img: "assets/team/6.png",
       en: {
         name: "Dr. Magda Emara",
@@ -276,6 +299,29 @@
         paras: [
           "نور معالِجة أطفال تدعم الأطفال والمراهقين في احتياجاتهم الانفعالية والسلوكية والتطورية. تحمل بكالوريوس علم النفس من جامعة Twente، وماجستير الصحة النفسية للأطفال والشباب من جامعة إدنبرة، بأكثر من ٢٤٠ ساعة من الخبرة الإكلينيكية إلى جانب عملها مرشدةً مدرسية للصفوف من الرابع إلى السادس.",
           "تشمل خبرتها فرط الحركة وتشتت الانتباه والتوحد والقلق وتحديات تقدير الذات، مستخدمةً المناهج الاجتماعية-الانفعالية والعلاج باللعب. وتُعرف نور بأسلوبها الدافئ والجذّاب الذي يقوده الطفل — إذ تهيّئ مساحة آمنة يشعر فيها الأطفال بأنهم مرئيون ومسموعون ومفهومون."
+        ]
+      }
+    },
+    {
+      img: "assets/team/yousef-kheir.png",
+      en: {
+        name: "Yousef Kheir",
+        title: "Clinical Psychologist & Child Therapist",
+        tags: ["Children & young adults", "ADHD & autism", "CBT & CFT", "NHS · Barnardo’s"],
+        paras: [
+          "Yousef holds a BA in Psychology from the American University in Cairo (AUC) and an MSc in Clinical Psychology from the University of Plymouth, as well as a postgraduate diploma in counselling from the UK.",
+          "He has worked with a diverse range of clients, from children to young adults, including neurodivergent individuals (e.g., ADHD and autism) and refugees. Yousef also works with each child’s family to support them in supporting their child. Having practiced across both Egypt and the UK, Yousef supports clients through a range of mental health challenges, including anxiety disorders (e.g., phobias and social anxiety), depression, self-harm, and difficulties within family relationships. His most recent professional experience includes working with the UK’s National Health Service (NHS) and Barnardo’s, the UK’s largest children’s charity.",
+          "Yousef works in a pluralistic and client-centred way that considers how each person’s unique environment, past experiences, and relationships interact together to shape their support needs. His practice is grounded in Cognitive Behavioural Therapy (CBT), Compassion-Focused Therapy (CFT), psychoeducation, positive discipline, and behavioural analysis to provide individually tailored and evidence-informed support. Personally, Yousef enjoys single-player video games, instrumental music, watching wrestling, and pets."
+        ]
+      },
+      ar: {
+        name: "يوسف خير",
+        title: "أخصائي نفسي إكلينيكي ومعالج أطفال",
+        tags: ["الأطفال والشباب", "فرط الحركة والتوحد", "CBT وCFT", "NHS · Barnardo’s"],
+        paras: [
+          "يحمل يوسف بكالوريوس علم النفس من الجامعة الأمريكية بالقاهرة، وماجستير علم النفس الإكلينيكي من جامعة بليموث، إضافةً إلى دبلومة دراسات عليا في الإرشاد النفسي من المملكة المتحدة.",
+          "عمل مع شريحة متنوعة من العملاء، من الأطفال إلى الشباب، بمن فيهم ذوو الاختلافات العصبية (مثل فرط الحركة وتشتت الانتباه والتوحد) واللاجئون. كما يعمل يوسف مع أسرة كل طفل لمساعدتها على دعم طفلها. وبعد ممارسته في مصر والمملكة المتحدة، يدعم يوسف عملاءه في مجموعة من تحديات الصحة النفسية، منها اضطرابات القلق (مثل الرهاب والقلق الاجتماعي) والاكتئاب وإيذاء الذات وصعوبات العلاقات الأسرية. وتشمل أحدث خبراته المهنية العمل مع هيئة الخدمات الصحية الوطنية البريطانية (NHS) ومؤسسة Barnardo’s، أكبر جمعية خيرية للأطفال في المملكة المتحدة.",
+          "يعمل يوسف بأسلوب تعددي يتمحور حول العميل، يراعي كيف تتفاعل بيئة كل شخص الفريدة وتجاربه السابقة وعلاقاته معًا في تشكيل احتياجاته من الدعم. وترتكز ممارسته على العلاج المعرفي السلوكي (CBT)، والعلاج المركّز على التعاطف (CFT)، والتثقيف النفسي، والتربية الإيجابية، وتحليل السلوك، لتقديم دعم مصمَّم لكل فرد وقائم على الأدلة. وعلى الصعيد الشخصي، يستمتع يوسف بألعاب الفيديو الفردية والموسيقى الآلية ومشاهدة المصارعة والحيوانات الأليفة."
         ]
       }
     },
