@@ -105,9 +105,17 @@
     }, [document.createTextNode(text)]);
   }
 
+  // Same anchor scheme as team.js, e.g. team.html#dina-elsheikh.
+  function slug(name) {
+    return name.toLowerCase().replace(/^dr\.?\s+/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+
   function teamPhoto(m, name, initials) {
     if (!m.img) return initialsAvatar(initials, m.colors);
-    var img = el("img", { src: m.img, alt: name, class: "team-avatar-img" });
+    var img = el("img", {
+      src: m.img, alt: name, class: "team-avatar-img",
+      width: "860", height: "860", loading: "lazy", decoding: "async"
+    });
     img.addEventListener("error", function () {
       img.replaceWith(initialsAvatar(initials, m.colors));
     }, { once: true });
@@ -127,7 +135,7 @@
       var name = m[state.lang][0];
       var title = m[state.lang][1];
       var initials = m.initials[state.lang];
-      var card = el("a", { href: "team.html", class: "team-card", "data-reveal": "" }, [
+      var card = el("a", { href: "team.html#" + slug(m.en[0]), class: "team-card", "data-reveal": "" }, [
         teamPhoto(m, name, initials),
         el("div", { class: "team-card-body" }, [
           el("div", { class: "team-card-name", text: name }),
