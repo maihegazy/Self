@@ -27,7 +27,7 @@
 
   var members = [
     {
-      img: "assets/team/1.png",
+      img: "assets/team/1.webp",
       en: {
         name: "Mahmoud Zaki",
         title: "Counseling Psychologist · Founder of Self Center",
@@ -50,7 +50,7 @@
       }
     },
     {
-      img: "assets/team/2.png",
+      img: "assets/team/2.webp",
       en: {
         name: "Dr. Mohamed Al-Hallag",
         title: "Consultant Psychiatrist",
@@ -71,7 +71,7 @@
       }
     },
     {
-      img: "assets/team/6.png",
+      img: "assets/team/6.webp",
       en: {
         name: "Dr. Magda Emara",
         title: "Psychotherapist & Couple Therapist",
@@ -92,7 +92,7 @@
       }
     },
     {
-      img: "assets/team/14.png",
+      img: "assets/team/14.webp",
       en: {
         name: "Dina Mouhran",
         title: "Counseling Psychologist & Couple Therapist",
@@ -113,7 +113,7 @@
       }
     },
     {
-      img: "assets/team/10.png",
+      img: "assets/team/10.webp",
       en: {
         name: "Salma El-Baradie",
         title: "Existential Psychotherapist",
@@ -134,7 +134,7 @@
       }
     },
     {
-      img: "assets/team/5.png",
+      img: "assets/team/5.webp",
       en: {
         name: "Heba Hamza",
         title: "Clinical Psychologist & Perinatal Mental Health Specialist",
@@ -154,7 +154,7 @@
       }
     },
     {
-      img: "assets/team/7.png",
+      img: "assets/team/7.webp",
       en: {
         name: "Imane Tazi",
         title: "Clinical Psychologist",
@@ -175,7 +175,7 @@
       }
     },
     {
-      img: "assets/team/9.png",
+      img: "assets/team/9.webp",
       en: {
         name: "Farida Badran",
         title: "Clinical Psychologist",
@@ -196,7 +196,7 @@
       }
     },
     {
-      img: "assets/team/12.png",
+      img: "assets/team/12.webp",
       en: {
         name: "Hana Habib",
         title: "Clinical Psychologist & Eating Disorders Specialist",
@@ -217,7 +217,7 @@
       }
     },
     {
-      img: "assets/team/3.png",
+      img: "assets/team/3.webp",
       en: {
         name: "Sara Soliman",
         title: "Psychologist & ED Therapist",
@@ -238,7 +238,7 @@
       }
     },
     {
-      img: "assets/team/13.png",
+      img: "assets/team/13.webp",
       en: {
         name: "Soha ElSokkary",
         title: "Counseling Psychologist",
@@ -259,7 +259,7 @@
       }
     },
     {
-      img: "assets/team/8.png",
+      img: "assets/team/8.webp",
       en: {
         name: "Nour Mahmoud",
         title: "Child Psychologist",
@@ -280,7 +280,7 @@
       }
     },
     {
-      img: "assets/team/4.png",
+      img: "assets/team/4.webp",
       en: {
         name: "Sohila Hassan",
         title: "Nutritionist & Eating Disorder Dietitian",
@@ -301,7 +301,7 @@
       }
     },
     {
-      img: "assets/team/malak.png",
+      img: "assets/team/malak.webp",
       en: {
         name: "Malak Helal",
         title: "Clinical Psychologist",
@@ -322,7 +322,7 @@
       }
     },
     {
-      img: "assets/team/11.png",
+      img: "assets/team/11.webp",
       en: {
         name: "Farida Naguib",
         title: "Therapist in Training",
@@ -341,7 +341,7 @@
       }
     },
     {
-      img: "assets/team/dina-elsheikh.png",
+      img: "assets/team/dina-elsheikh.webp",
       en: {
         name: "Dr. Dina Elsheikh",
         title: "Specialist Psychiatrist",
@@ -364,7 +364,7 @@
       }
     },
     {
-      img: "assets/team/yousef-kheir.png",
+      img: "assets/team/yousef-kheir.webp",
       en: {
         name: "Yousef Kheir",
         title: "Clinical Psychologist & Child Therapist",
